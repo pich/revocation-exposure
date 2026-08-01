@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you reference the Revocation Exposure concept, please cite it as below."
+title: "Revocation Exposure — Measuring the Window Between Withdrawn and Enforced Authority"
+abstract: >-
+  Revocation Exposure is a concept coined by Michał Piszczek describing the measurable window
+  between a revocation decision and system-wide enforcement, during which a credential remains
+  cryptographically valid but operationally unauthorized. It separates token theft from stale
+  authority as two distinct security axes and frames revocation as a propagation race across
+  every enforcement point in a distributed system, to be measured as a service level objective.
+type: dataset
+date-released: "2026-08-01"
+license: CC-BY-4.0
+url: "https://piszczek.pl/glossary/revocation-exposure"
+repository-code: "https://github.com/pich/revocation-exposure"
+keywords:
+  - Revocation Exposure
+  - token revocation
+  - DPoP
+  - RFC 9449
+  - access token security
+  - distributed authorization
+  - AI agent security
+authors:
+  - family-names: Piszczek
+    given-names: Michał
+    orcid: "https://orcid.org/0009-0000-5182-5756"
+    affiliation: Archdesk
+    website: "https://piszczek.pl"

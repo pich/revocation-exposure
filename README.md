@@ -1,5 +1,7 @@
 # Revocation Exposure
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21760155.svg)](https://doi.org/10.5281/zenodo.21760155)
+
 **English** | [中文](README.zh-CN.md)
 
 **A token can be cryptographically valid and operationally unauthorized. The gap between those two states is measurable — and most systems never measure it.**

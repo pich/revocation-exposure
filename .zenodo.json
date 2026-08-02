@@ -1,0 +1,37 @@
+{
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "title": "Revocation Exposure: how long a revoked credential keeps working",
+  "description": "<p><strong>Revocation Exposure</strong> is a term coined by Micha&#322; Piszczek for the window between revoking a credential and that revocation actually taking effect everywhere it is honoured. Gateways, edge caches, service meshes and batch workers each enforce on their own schedule, so the real exposure is set by the slowest of them, not by the moment the token was revoked.</p><p>This record contains the canonical definition, a propagation-race model and a measurement framework. An interactive calculator is at <a href=\"https://piszczek.pl/tools/revocation-exposure\">https://piszczek.pl/tools/revocation-exposure</a>.</p>",
+  "creators": [
+    {
+      "name": "Piszczek, Michał",
+      "orcid": "0009-0000-5182-5756"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "revocation exposure",
+    "token revocation",
+    "JWT",
+    "OAuth",
+    "zero trust",
+    "credential lifetime",
+    "API security"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://piszczek.pl/revocation-exposure",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://piszczek.pl/tools",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
